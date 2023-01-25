@@ -36,6 +36,17 @@ header .icone {
     justify-content: end;
 }
 
+.logocontainer {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 30px;
+}
+
 
 
 
