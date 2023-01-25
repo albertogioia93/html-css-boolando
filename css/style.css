@@ -10,6 +10,20 @@ Reset
     box-sizing: border-box;
 }
 
-h1 {
-    color: brown;
+.header {
+    display: flex;
+    width: 100%;
+    background-color: #ff6900;
+    height: 70px;
+    position: fixed;
 }
+
+div {
+    height: 2000px;
+    background-color: blue;
+    color: white;
+    font-size: 200px;
+}
+
+
+
