@@ -19,7 +19,7 @@ Header
 
 .nav {
     display: flex;
-    width: 100%;
+    max-width: 100%;
     background-color: #ff6900;
     height: 70px;
     position: fixed;
@@ -62,12 +62,50 @@ Main
 ------------------------------------------
 */
 
-
-.container {
-    height: 1460px;
-    background-color: blue;
-    margin-top: 1100px;
+main {
+    padding: 130px 270px 60px 270px;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+/* .container {
+    border: 2px dashed black;
+    height: 1460px;
+    background-color: pink;
+    max-width: 100%;
+    margin-right: 270px;
+    margin-left: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+} */
+
+.imag {
+    background-color: blueviolet;
+    border: 2px dashed black;
+    width: 450px;
+    height: 700px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.social {
+    padding: 0px 270px;
+    background-color: black;
+    height: 112px;
+    display: flex;
+    width: 100%;
+    color: white;
+}
+
 
 
 
