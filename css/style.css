@@ -27,6 +27,7 @@ Header
     left: 0px;
     top: 0px;
     right: 0px;
+    z-index: 999;
 }
 
 ul {
@@ -89,8 +90,31 @@ main {
     position: relative;
 }
 
+.sconto {
+    display: inline-block;
+    background-color: red;
+    position: absolute;
+    bottom: 80px;
+    left: 0;
+    right: 0;
+}
+
 .foto {
     width: 100%;
+    display: block;
+}
+
+.foto2 {
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.imag:hover .foto2 {
+    opacity: 1;
 }
 
 p {
