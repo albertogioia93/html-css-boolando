@@ -8,22 +8,52 @@ Reset
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-.header {
+.nav {
     display: flex;
     width: 100%;
     background-color: #ff6900;
     height: 70px;
     position: fixed;
+    padding: 20px 270px;
 }
 
-div {
-    height: 2000px;
-    background-color: blue;
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    font-weight: bold;
+    font-size: 13px;
+    align-items: center;
+    width: 20%;
     color: white;
-    font-size: 200px;
 }
+
+header .icone {
+    display: flex;
+    justify-content: end;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
