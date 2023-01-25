@@ -11,6 +11,12 @@ Reset
     font-family: 'Roboto', sans-serif;
 }
 
+/*
+------------------------------------------
+Header
+------------------------------------------
+*/
+
 .nav {
     display: flex;
     width: 100%;
@@ -47,8 +53,18 @@ header .icone {
     height: 30px;
 }
 
+/*
+------------------------------------------
+Main
+------------------------------------------
+*/
 
 
+.container {
+    height: 1460px;
+    background-color: blue;
+    margin-top: 200px;
+}
 
 
 
