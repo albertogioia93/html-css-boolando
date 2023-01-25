@@ -24,6 +24,9 @@ Header
     height: 70px;
     position: fixed;
     padding: 20px 270px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
 }
 
 ul {
@@ -63,7 +66,7 @@ Main
 .container {
     height: 1460px;
     background-color: blue;
-    margin-top: 200px;
+    margin-top: 1100px;
 }
 
 
